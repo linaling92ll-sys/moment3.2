@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videobakgrund</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <video autoplay muted loop controls>
+        <source src="Videobakgrund.mp4" type="video/mp4">
+        <source src="Videobakgrund.webm" type="video/webm">
+        Din webbläsare stödjer inte videotaggen.
+    </video>
+    <div class="content">
+        <h1>Vad har jag gjort för att lösa uppgiften?</h1>
+        <p>
+            För att lösa uppgiften så sökte jag på internet och hittade väldigt bra tips på <a href="https://www.w3schools.com/howto/howto_css_fullscreen_video.asp">w3schools/How TO-Fullscreen Video</a>.<br>
+            Jag la in två olika videoformat för att försäkra mig om att alla kan se videon. Jag hittade information angående detta också på <a href="https://www.w3schools.com/html/html5_video.asp">w3schools/HTML Video</a>.<br>
+        </p>
+        <p>
+            Jag började med att lägga in själva videon som jag ville ha som bakgrund och så la jag den i olika videoformat.<br>
+            Sedan la jag en div runt själva den här texten för att jag skulle kunna styla den med hjälp av CSS.
+        </p>
+        <p>
+            Jag stötte på några problem när jag skulle skriva CSSen för den här webbplatsen.<br>
+            Jag fick en horisontellscroll och för att få bort den så hittade jag att man kan använda overflow-x i css.<br>
+            Det denna gör är att man kan bestämma om innehållet ska "klippas bort", lägga till en scroller. Här är länken till sidan som jag hittade det på <a href="https://www.w3schools.com/cssref/css3_pr_overflow-x.php">Overflow</a>.
+        </p>
+        <p>
+            Jag hade problem med att knapparna på videon inte syntes så då sökte jag lite och hittade information om <a href="https://www.w3schools.com/cssref/pr_pos_z-index.php">Z-index</a>.<br>
+            Den här bestämmer ordningen som innehållet ska placeras på. Så att de inte hamnar bakom något annat element.
+        </p>
+    </div>
+    
+</body>
+</html>
